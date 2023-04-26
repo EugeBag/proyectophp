@@ -1,10 +1,101 @@
-.botones {
-    display: flex;
-    flex-direction: row;
+#menu {
+    background: #535864;
 }
 
-.texto {
-    font-size: .9rem;
-    color: gray;
-    line-height: 1.3rem;
+.menuDerecha {
+    float: right;
 }
+
+#conf {
+    font-size: 1.3rem;
+    font-family: 'Corbel';
+}
+
+#textoConf {
+    color: white;
+    font-size: 1rem;
+    font-weight: 550;
+
+}
+
+#textoMenu {
+    font-size: 1rem;
+    color: rgb(179, 177, 177);
+    font-weight: 500;
+}
+
+#textoTicket {
+    color: rgb(28, 182, 26);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btnVerde {
+    color: rgb(28, 182, 26);
+}
+
+.carousel-inner{
+    max-width: 100%;
+    height: 30rem;
+  
+}
+
+.imagen{
+    filter: brightness(0.6)
+}
+.carousel-caption {
+    text-align: right;
+    color: white;
+    position: absolute;
+    right: 10rem;
+    top: 10rem;
+    left: 43rem;
+    
+}
+
+.textoOradores{
+    display: flex;
+    align-items: center;
+    font-family: 'Corbel';
+    
+}
+
+.fs-2{
+    font-weight: bold;
+}
+
+.cuadroPlaya{
+    max-width: 100%;
+  
+}
+.textoOctubre{
+    background: #535864;
+    color: white;
+    font-family: 'Corbel';
+}
+
+.titulo{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+.textoT{
+    margin-left: 1.5rem;
+   text-align: left; 
+    margin-right: 2rem;
+}
+
+.conocesMas{
+    margin-left: 1.5rem;
+   
+}
+
+
+
+
+
+
+
+
