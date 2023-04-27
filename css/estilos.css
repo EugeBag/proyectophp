@@ -64,6 +64,46 @@
     font-weight: bold;
 }
 
+.btnAmarillo{
+    background-color: rgb(254, 193, 7);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: .3 rem 0.5rem;
+    font-size: .7rem;
+
+
+}
+
+.btnAzul{
+    background-color: rgb(23, 162, 183);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: .3 rem 0.5rem;
+    font-size: .7rem;
+    color: white;
+}
+
+.btnGris{
+    background-color: rgb(109, 116, 126);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: .3 rem 0.5rem;
+    font-size: .7rem;
+    color: white;
+}
+.btnRojo{
+    background-color: rgb(219, 52, 69);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: .3 rem 0.5rem;
+    font-size: .7rem;
+    color: white;
+}
+
 .cuadroPlaya{
     max-width: 100%;
   
@@ -89,9 +129,28 @@
 
 .conocesMas{
     margin-left: 1.5rem;
+    margin-bottom: 1rem;
    
 }
 
+.enviar{
+    background-color: rgb(150, 201, 62);
+    border: 0;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 400;
+    
+    font-size: 1.3rem;
+    color: white;
+
+}
+
+.piePagina{
+    margin-top: 40px;
+    background: #535864;
+    height: auto;
+    padding: .9rem;
+}
 
 
 
