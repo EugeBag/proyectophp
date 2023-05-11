@@ -8,7 +8,7 @@
 
 #conf {
     font-size: 1.3rem;
-    font-family: 'Corbel';
+    font-family: 'Roboto';
 }
 
 #textoConf {
@@ -43,13 +43,14 @@
 .imagen{
     filter: brightness(0.6)
 }
+
 .carousel-caption {
     text-align: right;
     color: white;
     position: absolute;
     right: 10rem;
     top: 10rem;
-    left: 43rem;
+    left: 43 rem auto;
     
 }
 
