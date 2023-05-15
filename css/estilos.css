@@ -154,7 +154,18 @@
 }
 
 
+@media (max-width:540px){
+    .carousel-caption{
+        transform: scale(0.5);
+        margin-right: -90px;
+    }
+}
 
+@media (max-width: 280px){
+    .carousel-caption{
+        transform: scale(0.3);
+    }
+}
 
 
 
