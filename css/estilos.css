@@ -115,6 +115,34 @@
     font-family: 'Corbel';
 }
 
+.estudiante{
+    border-color: blue;
+    padding: 5px;
+}
+
+.trainee{
+    border-color: rgb(0, 255, 242);
+    padding: 5px;
+    margin-left: 100px;
+}
+
+.junior{
+    border-color: rgb(249, 213, 123);
+    padding: 5px;
+    margin-left: 100px;
+}
+
+.preciot{
+    font-weight: bolder;
+}
+
+.algot{
+    font-size: 18px;
+}
+.letrachicat{
+    font-size: 12px;
+}
+
 .titulo{
     margin-top: 1rem;
     margin-left: 1.5rem;

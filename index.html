@@ -89,8 +89,8 @@
 
 
                     <div>
-                        <button type="button" class="btn btn-outline-light" >Quiero ser orador</button>
-                        <button type="button" class="btn btn-success" >Comprar tickets</button>
+                        <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+                        <button type="button" class="btn btn-success">Comprar tickets</button>
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                         que tenemos para tí. Te esperamos!</p>
                     <div>
                         <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-                        <button type="button" class="btn btn-success" >Comprar tickets </button>
+                        <button type="button" class="btn btn-success">Comprar tickets </button>
                     </div>
 
                 </div>
@@ -130,7 +130,7 @@
                             que tenemos para tí. Te esperamos!</p>
                         <div>
                             <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-                            <button type="button" class="btn btn-success" >Comprar tickets</button>
+                            <button type="button" class="btn btn-success">Comprar tickets</button>
                         </div>
 
                     </div>
@@ -241,6 +241,36 @@
 
 
     <!--Formulario-->
+    <div class="container-fluid d-flex flex-wrap align-items-center justify-content-center">
+        <div class="card estudiante" style="width: 18rem;">
+            <ul class="list-group list-group-flush align-items-center justify-content-center">
+                <h3 class="titulot">Estudiante</h3>
+                <p class="algot">Tiene un descuento</p>
+                <p class="preciot">80%</p>
+                <p class="letrachicat">* presentar documentación</p>
+            </ul>
+        </div>
+
+        <div class="card trainee" style="width: 18rem;">
+            <ul class="list-group list-group-flush align-items-center justify-content-center">
+                <h3 class="titulot">Trainee</h3>
+                <p class="algot">Tiene un descuento</p>
+                <p class="preciot">50%</p>
+                <p class="letrachicat">* presentar documentación</p>
+            </ul>
+        </div>
+
+        <div class="card junior" style="width: 18rem;">
+            <ul class="list-group list-group-flush align-items-center justify-content-center">
+                <h3 class="titulot">Junior</h3>
+                <p class="algot">Tiene un descuento</p>
+                <p class="preciot">15%</p>
+                <p class="letrachicat">* presentar documentación</p>
+            </ul>
+        </div>
+    </div>
+
+    </div>
 
     <div class="container text-center my-3">
         <div class="fs-4 my-3" id="ticket">
@@ -272,23 +302,23 @@
                 </div>
 
                 <div class="row">
-                    
-                     <div class="col-md mb-3">
+
+                    <div class="col-md mb-3">
                         <select class="form-select " name="descuento" id="descuento">
                             <option value="10">Particular</option>
                             <option value="30">Estudiante</option>
                             <option value="50">Orador</option>
                         </select>
                     </div>
-                    
-                    
-                    
+
+
+
                     <div class="col-md">
                         <input type="numer" name="cantidadEntradas" id="cantidadEntradas"
                             onkeyup="calcularPrecioFinal()" class="form-control mb-3">
                         <small>Costo por entrada: $1000.</small>
                     </div>
-                   
+
                     <div class="col-md mb-3">
                         <input type="text" name="precioFinal" id="precioFinal" class="form-control"
                             placeholder="Costo total">
