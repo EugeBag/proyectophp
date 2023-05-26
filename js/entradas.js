@@ -3,9 +3,9 @@ function calcularPrecioFinal(){
 
     let descuento= document.getElementById("descuento").value;
 
-    let descuentoTotal= (1000*cantidadEntradas)*descuento/100;
+    let descuentoTotal= (200*cantidadEntradas)*descuento/100;
 
-    let precioFinal= (1000*cantidadEntradas)-descuentoTotal;
+    let precioFinal= (200*cantidadEntradas)-descuentoTotal;
 
     document.getElementById("precioFinal").value=precioFinal;
 
